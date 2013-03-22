@@ -33,3 +33,17 @@
   top: 1em;
   right: 1em;
 }
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size:125%;
+}
+
+#tabAllContent{
+  background:#9EFFB8;
+  display: inline-block;
+  border-radius:10px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom:5px;
+}
