@@ -13,10 +13,17 @@
             $("#tabAllContent").append("<div class = 'toDoItem' id = '" + i + "'> <a>" + toDoData[i].description + "</a><button class = 'delete' id = '" + i + "'>Delete </button></div>");
             
         }
+        //handle delete button
         $(".delete").click(function (){
           var toDelete = $(this).attr("id");
           console.log(toDelete);
           $("#"+toDelete).fadeOut(1000);
+        });
+        //handle moving between tabs
+        $("#tabEdit").click(function(){
+          //hide other tabs
+          console.log("Edit was clicked");
+          
         });
     });
   }));
